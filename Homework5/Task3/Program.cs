@@ -29,9 +29,11 @@ foreach (var a in array1)
         maxnum = a;
     }
 }
-res = maxnum-minnum;
+res = Math.Round(maxnum-minnum, 1);
 return res;
 }
+
+
 double[] GetArray (int size) 
 {
     double[] resultArray = new double [size];       
